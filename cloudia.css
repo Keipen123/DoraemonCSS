@@ -1,0 +1,419 @@
+body{
+    background-color: #89DDDC;
+    margin: 0;
+    padding: 0;
+}
+
+.base{
+    background-color: #ffffff;
+    width: 230px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.canvus{
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.cloudia{
+    background-color: #ffffff;
+    margin: -40px 30px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.cloudia::before{
+    content: " ";
+    background-color: #ffffff;
+    margin: -20px 40px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.cloudia::after{
+    content: " ";
+    background-color: #ffffff;
+    margin: 0px 100px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.new-canvus{
+    top: 30%;
+    left: 30%;
+    position: absolute;
+}
+
+.head{
+    background-color:#0BB0E2;
+    border: black solid 1px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.face{
+    background-color: #ffffff;
+    border: black solid 1px;
+    height: 170px;
+    width: 180px;
+    border-radius: 100%;
+    transform: translate(10px, 30px);
+}
+
+.whisk{
+    border: black solid 1px;
+    width: 30px;
+    transform: rotate(20deg) translate(0px, -50px);
+}
+
+.whisk::before{
+    content: " ";
+    border: black solid 1px;
+    width: 40px;
+    transform: rotate(-20deg) translate(-15px, 15px);
+    position: absolute;
+}
+
+.whisk::after{
+    content: " ";
+    border: black solid 1px;
+    width: 40px;
+    transform: rotate(-30deg) translate(-20px, 30px);
+    position: absolute;
+}
+
+.whisk:nth-child(1){
+transform: scaleX(-1) translate(-107px, -40px) rotate(40deg);
+position: absolute;
+}
+
+.eyes{
+    border: black solid 1px;
+    background-color: #ffffff;
+    transform: translate(47px,-23px);
+    border-radius: 65%;
+    width: 45px;
+    height: 55px;
+}
+
+.eyes::before{
+    content: " ";
+    border: black solid 1px;
+    background-color: #ffffff;
+    transform: translateX(45px);
+    border-radius: 65%;
+    width: 45px;
+    height: 55px;
+    position: absolute;
+}
+
+.hitomi{
+    border: black solid 4px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 2px;
+    height: 6px;
+    transform: translate(30px, 20px);
+}
+
+.hitomi::before{
+    content: " ";
+    border: black solid 4px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 2px;
+    height: 6px;
+    transform: translate(18px, -3px);
+    position: absolute;
+}
+
+.nose{
+    border: black solid 1px;
+    background-color: #FE4647;
+    transform: translate(85px, -37px);
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+
+.nose::before{
+    content: " ";
+    border: black solid 1px;
+    background-color: #ffffff;
+    height: 35px;
+    transform: translate(7px, 15px);
+    position: absolute;
+}
+
+.lips{
+    border: black solid 1px;
+    transform: translate(-62px, 50px);
+    width: 135px;
+}
+
+.lips::before{
+    content:" ";
+    border: black solid 2px;
+    border-right: none;
+    transform: translate(-23px, -28px);
+    width: 20px;
+    height: 25px;
+    border-radius: 30px 0px 0px 20px;
+    position: absolute;
+}
+
+.lips::after{
+    content:" ";
+    border: black solid 2px;
+    border-left: none;
+    transform: translate(131px, -28px);
+    width: 20px;
+    height: 25px;
+    border-radius: 0px 30px 20px 0px;
+    position: absolute;
+}
+
+.mouth{
+    border: black solid 2px;
+    border-radius: 00px 00px 60px 60px;
+    background-color: #FE4647;
+    transform: translate(-55px,49px);
+    height: 60px;
+    width: 120px;
+}
+
+.mouth::before{
+    content:" ";
+    border: black solid 2px;
+    background-color: #FC6C6E;
+    border-radius: 54%/35% 35% 85% 85%;
+    transform: translate(8px, 17px);
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.neck{
+    border: black solid 1px;
+    background-color: #FE4647;
+    border-radius: 60%/5% 5% 75% 75%;;
+    transform: translate(41px, -18px);
+    width: 119px;
+    height: 15px;
+}
+
+.bell{
+    border: black solid 2px;
+    background-color: #FCF52D;
+    border-radius: 100%;
+    transform: translate(46px,3px);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.bell::after{
+    content: " ";
+    border: black solid 2px;
+    background-color: #FCF52D;
+    border-radius: 50px;
+    transform: translate(-4px, 8px);
+    height: 3px;
+    width: 35px;
+    position: absolute;
+}
+
+.bell::before{
+    content: " ";
+    border: black solid 2px;
+    border-radius: 50px;
+    transform: translate(13px, 19px);
+    height: 7px;
+    position: absolute;
+}
+
+.abdomin{
+    border: black solid 1px;
+    background-color: #0BB0E2;
+    border-top-left-radius: 50% 3vw;
+    border-top-right-radius: 50% 7vw;
+    border-bottom-right-radius: 60% 7vw;
+    border-bottom-left-radius: 60% 3vw;
+    width: 133px;
+    height: 134px;
+    transform: translate(33px, -28px) rotate(90deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.abdomin::before{
+    content: "  ";
+    border: black solid 1px;
+    border-bottom: none;
+    background-color: #89DDDC;
+    width: 30px;
+    height:21px;
+    border-radius: 50%/100% 100% 4% 4%;
+    transform: translate(107px,55px) rotate(270deg);
+    position: absolute;
+    
+}
+
+.apron{
+    border: black solid 1px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%/65% 65% 45% 45%;
+    transform: rotate(-90deg) translate(-14px);
+    position: absolute;
+}
+
+.apron::after{
+    content: " ";
+    border: black solid 1px;
+    background-color: #ffffff;
+    border-radius: 50%/100% 100% 0 0;
+    width        : 75px;
+    height       : 35px;
+    transform    : rotate(180deg) translate(-11px, -60px);
+    position: absolute;
+}
+
+.arms{
+    border: black solid 1px;
+    border-top: none;
+    background-color: #0BB0E2;
+    width        : 47px;
+    height       : 117px;
+    border-radius: 50%/15% 15% 85% 85%;
+    transform    : rotate(63deg) translate(-38px, -24px);
+    width: 37px;
+    height: 90px;
+    position: absolute;
+    z-index: -2;
+}
+
+.arms::before{
+    content: " ";
+    border: black solid 1px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width:40px;
+    height: 40px;
+    transform: translate(-5px,50px);
+    position: absolute;
+}
+
+.arms:nth-child(1){
+    transform: scaleX(-1) translate(-50px, -160px) rotate(180deg);
+position: absolute;
+}
+
+.legs{
+    border: black solid 1px;
+    background-color: #ffffff;
+    border-radius: 50%/65% 55% 35% 25%;
+    transform : rotate(90deg);
+    width:60px;
+    height: 30px;
+    transform: translate(27px,95px);
+    position: absolute;
+    z-index: -2;
+}
+
+.legs::before{
+    content: " ";
+    border: black solid 1px;
+    background-color: #ffffff;
+    border-radius: 50%/65% 55% 35% 25%;
+    transform :  rotate(180deg) scaleY(-1) translate(-85px, -1px);
+    width:60px;
+    height: 30px;
+    position: absolute;
+    z-index: -2;
+}
+.takecopter{
+    width: 24px;
+    height: 14px;
+    border: black solid 1px;
+    background-color: #FCF52D; 
+    border-radius: 50%/100% 100% 0 0;
+    transform: translate( 89px, -233px);
+}
+
+.pillar{
+    border: black solid 1px;
+    background-color: #FCF52D; 
+    width: 3px;
+    height:27px;
+    transform: translate(10px,-28px);
+}
+
+.propeller{
+    width        : 87px;
+    height       : 23px;
+    background: linear-gradient(20deg,#fcf52d 10px, black 5px, #fcf52d -20px,white, #fcf52d -30px, white 1px, #fcf52d -40px, white, #fcf52d 44px);
+    border-radius: 50%;
+    transform: translate(-42px,-12px);
+    opacity: 0.9;
+}
+
+.propeller::after{
+    content: " ";
+    border: black solid 1px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: #FCF52D; 
+    width: 7px;
+    height:2px;
+    transform: translate(39px, 6px);
+    position: absolute;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    transform: translateY(-20px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+span{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.date{
+    text-align: right;
+    margin-right: 50px;
+}
+
+@keyframes upDown{
+    0%{
+        transform: translateY(50px);
+    }
+
+    50%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(50px);
+    }
+
+}
+
+.new-canvus{
+    animation: 3s ease-in-out reverse infinite upDown;
+}
